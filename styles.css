@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #004d99; /* Blue background */
+    color: #ffffff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366; /* Slightly darker blue for header */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: white; /* White link color */
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    background-color: #b60101; /* Hover effect */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1, h2 {
+
+    text-align: center;
+}
+
+section {
+    font-size: 24px;
+    padding: 20px;
+    background-color: #003366; /* Slightly darker blue for section backgrounds */
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow for depth */
+}
+
+.cta-button {
+    display: block;
+    text-align: center;
+    background-color: #002244; /* Dark blue button color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 200px;
+    margin: 20px auto;
+}
+
+.cta-button:hover {
+    background-color: #b60101; /* Even darker on hover */
+}
+
+footer {
+    background-color: #003366; /* Slightly darker blue for footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* For the course plan page */
+#course-plan ol {
+    font-size: 50px;
+    margin-top: 20px;
+    padding-left: 1em;
+    counter-reset: item;
+}
+
+#course-plan li {
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#course-plan li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+    position: absolute;
+    left: -1.5em;
+    top: 0;
+}
+
+/* ... existing styles ... */
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between buttons */
+}
+
+.course-button {
+    background-color: #002244; /* Dark blue for the button */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: block; /* Making the button take the full width of its container */
+}
+
+.course-button:hover {
+    background-color: #b60101; /* Darker blue for hover effect */
+}
+
+/* ... existing styles ... */
+
+#downloads {
+    padding: 20px;
+    background-color: #003366; /* Slightly darker blue for section backgrounds */
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow for depth */
+}
+
+#downloads h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#downloads ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#downloads li {
+    margin-bottom: 15px;
+}
+
+#downloads a {
+    display: block;
+    background-color: #002244; /* Dark blue for download links */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#downloads a:hover {
+    background-color: #b60101; /* Darker blue for hover effect */
+}
+
+#class-content h2 {
+    font-size: 23px;
+    background-color: #442cbb;
+    padding: 7px; /* Added some padding to give space around the text */
+    color: white; /* Making the text color white for better readability on red background */
+    border-radius: 5px; /* Making the edges slightly rounded */
+}
+#class-content h3{
+    font-size: 20px;
+
+}
+#class-content p{
+    font-size: 18px;
+}
+
+#class-content ul{
+    font-size: 18px;
+
+}
