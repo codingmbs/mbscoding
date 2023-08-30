@@ -1,0 +1,74 @@
+Python Cheat Sheet
+
+Defining Variables
+
+# variable_name = value
+x = 10
+
+Basic Arithmetic Operations
+
+# Addition
+result = x + 2
+# Subtraction
+result = x - 2
+# Multiplication
+result = x * 2
+# Division
+result = x / 2
+# Exponentiation
+result = x ** 2
+
+Built-in Functions
+
+
+# Absolute value
+abs_value = abs(-10)
+
+# Round a number
+rounded_number = round(10.6)
+
+Data Types
+
+# Integer
+x = 10
+
+# String
+y = "Hello"
+
+# Float
+z = 10.5
+Combining Different Data Types
+
+# You cannot directly combine different data types in Python. 
+# For example, you cannot concatenate a string and an integer directly. 
+# You have to convert the integer to a string first.
+
+age = 20
+message = "My age is " + str(age)
+
+Comments
+
+# This is a single-line comment
+
+'''
+This is a
+multi-line
+comment
+'''
+another example:
+# Define a variable
+num = 5  # This is an integer data type
+
+# Use the variable in an expression
+result = num + 3  # This expression adds 3 to the variable
+
+# Call a built-in function
+final_result = round(result)  # This calls the built-in round function
+
+# Use at least 2 data types
+message = "The result is "  # This is a string data type
+
+# Combine the two data types in a print statement
+print(message + str(final_result))
+
+# This program will output: The result is 8
